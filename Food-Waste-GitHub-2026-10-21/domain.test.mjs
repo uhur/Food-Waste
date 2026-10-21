@@ -1,0 +1,12 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {validateRecord,validateDecision,validateDelivery} from './domain.mjs';
+test('geçersiz miktarlar kayda alınmaz',()=>{for(const quantity of [-1,0,'abc',Infinity])assert.throws(()=>validateRecord({lot:'L',product:'P',quantity,unit:'kg',issue:'X'}));});
+test('mevcut kararın üzerine yazılamaz',()=>assert.throws(()=>validateDecision({decision:{}},{type:'İade',reason:'X'})));
+test('atık kararı olmadan teslim yapılamaz',()=>assert.throws(()=>validateDelivery({quantity:10},{quantity:5,receiver:'A',reference:'B',date:'2026-10-21'})));
+test('teslim parti miktarını aşamaz',()=>assert.throws(()=>validateDelivery({quantity:10,decision:{type:'Atığa ayırma'}},{quantity:11,receiver:'A',reference:'B',date:'2026-10-21'})));
+test('geçerli atık teslimi kabul edilir',()=>assert.doesNotThrow(()=>validateDelivery({quantity:10,decision:{type:'Atığa ayırma'}},{quantity:10,receiver:'A',reference:'B',date:'2026-10-21'})));
+test('kısmi teslim kaydı yanlışlıkla kapatamaz',()=>assert.throws(()=>validateDelivery({quantity:10,decision:{type:'Atığa ayırma'}},{quantity:5,receiver:'A',reference:'B',date:'2026-10-21'})));
+test('aşırı uzun kayıt alanları reddedilir',()=>assert.throws(()=>validateRecord({lot:'L'.repeat(101),product:'P',quantity:10,unit:'kg',issue:'X'})));
+test('gerekçe metin olmalıdır',()=>assert.throws(()=>validateDecision({},{type:'İade',reason:42})));
+test('takvimde olmayan gün reddedilir',()=>assert.throws(()=>validateDelivery({quantity:10,decision:{type:'Atığa ayırma'}},{quantity:10,receiver:'A',reference:'B',date:'2026-02-31'})));

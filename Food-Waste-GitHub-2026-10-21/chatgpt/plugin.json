@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "foodwaste-demo",
+  "version": "0.1.0",
+  "description": "Food & Waste yerel demosunda geri bildirim kaydedin, iki ajanla inceletin ve görev taslaklarını takip edin.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Food & Waste Demo",
+        "shortDescription": "Geri bildirim ve ajan incelemesi",
+        "longDescription": "Yalnızca bu bağlantıdan oluşturulan demo geri bildirimleriyle çalışır. Ajanlar taslak üretir; görev onayı SaaS panelindedir.",
+        "developerName": "Food & Waste",
+        "category": "Productivity",
+        "brandColor": "#174f3c",
+        "composerIcon": "./assets/food-waste-logo-256.png",
+        "logo": "./assets/food-waste-logo-512.png",
+        "capabilities": ["Read", "Write"],
+        "defaultPrompt": ["Food & Waste bağlantısını kontrol et.", "Bir kullanım önerisini Food & Waste'e kaydedelim."]
+      }
+    }
+  }
+}

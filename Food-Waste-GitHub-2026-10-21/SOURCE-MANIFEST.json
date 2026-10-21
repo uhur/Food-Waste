@@ -1,0 +1,272 @@
+[
+  {
+    "file": ".env.example",
+    "bytes": 239,
+    "sha256": "05f0662ac0acef76849068c8590c913a602e7506f005c4235ef0d08e8b85584c"
+  },
+  {
+    "file": ".gitignore",
+    "bytes": 100,
+    "sha256": "08068c8e27f3ecb46629180d3b816f551ee4f0371a9508c5a9ca720988a51a35"
+  },
+  {
+    "file": "AI-DURUMU.md",
+    "bytes": 1489,
+    "sha256": "cf8ece0092ab7bcf7c78ff5f2d9073fd5dd9bb5061624e049098cdd62c4f0e91"
+  },
+  {
+    "file": "backup.ps1",
+    "bytes": 1086,
+    "sha256": "09ea7e95428cfdb33b317476fa9cbb89c00f1877637fdb146072a4a22782e263"
+  },
+  {
+    "file": "BASLANGIC.md",
+    "bytes": 6633,
+    "sha256": "fd084063402c0209f05a657b3407a0d51ce7705f902d6b88b94d73efb83d3ce6"
+  },
+  {
+    "file": "BASLAT-CHATGPT.cmd",
+    "bytes": 490,
+    "sha256": "4a0b3b5247b435ec813f8cb3c59cf186bd76bd94ede4306a6408b952dec2b019"
+  },
+  {
+    "file": "BASLAT.cmd",
+    "bytes": 599,
+    "sha256": "913d1f793c03e28475cf26a0e059c623dfb1a8d27b46f6919b53bc5642af1b11"
+  },
+  {
+    "file": "chatgpt/assets/food-waste-logo-256.png",
+    "bytes": 4515,
+    "sha256": "b1add71fc985a8c1fe7c98041936b1ec4b478b0c99beb40c213588f00b6aaab8"
+  },
+  {
+    "file": "chatgpt/assets/food-waste-logo-512.png",
+    "bytes": 10185,
+    "sha256": "175434b1f915977f3c7211a8fe9d222dbbe761ef02fdb0ce664f480882cd3d97"
+  },
+  {
+    "file": "chatgpt/assets/food-waste-logo.svg",
+    "bytes": 404,
+    "sha256": "8840d92a962eaa3c9e16c36f0fdde95b71cb127f48f051c26c53e0add2cf7095"
+  },
+  {
+    "file": "chatgpt/bridge.mjs",
+    "bytes": 4188,
+    "sha256": "8018ea333bde38dfe7df869165e9b4e8286ec54ba262cad5a84f5512d0018254"
+  },
+  {
+    "file": "chatgpt/bridge.test.mjs",
+    "bytes": 3086,
+    "sha256": "ac86f8b22bc2549177bc18d8e6d951b75bbfc740ced5cc5bcceb977c8cf82ad5"
+  },
+  {
+    "file": "chatgpt/mcp.json",
+    "bytes": 202,
+    "sha256": "ca1ce26c7d3a7e604ded80d013e1165606249a7e373b6e8fc5228a8a9939ccbe"
+  },
+  {
+    "file": "chatgpt/plugin.json",
+    "bytes": 1002,
+    "sha256": "de9ee9820ef22693b00a85d2e2c302e1e3cd1848de4dea7254645340f4de3ad5"
+  },
+  {
+    "file": "chatgpt/server.mjs",
+    "bytes": 5059,
+    "sha256": "b53f30fbd071ce08bbc101a7b094eb80c45c1234a6fd08e1886ee45354c8d92f"
+  },
+  {
+    "file": "chatgpt/verify.mjs",
+    "bytes": 2413,
+    "sha256": "e8125d18636f4795ff4c79fd9e4100d7958e79a0dab97b8af517ea4a88581add"
+  },
+  {
+    "file": "CHATGPT-KURULUM.md",
+    "bytes": 8318,
+    "sha256": "91cb53916bbb1457cc4da27d47d7b1beb7893a42b87eb6294885837b6e65a2dd"
+  },
+  {
+    "file": "domain.mjs",
+    "bytes": 1867,
+    "sha256": "303b5cbb912126333a5ecf65e8fcb5456016a06b3fa4dfeeaaf88fa265168599"
+  },
+  {
+    "file": "domain.test.mjs",
+    "bytes": 1663,
+    "sha256": "b0211f992b6d8b573cec1f0cd31078b0c07a59e4d2bc6a996cbe672855e46337"
+  },
+  {
+    "file": "EKLENTI-VE-AJAN-MIMARISI.md",
+    "bytes": 6328,
+    "sha256": "6cca12ffaaabb485b9608f97c7e948e8e64f9b91bdeb869dc4261622c4ca7f02"
+  },
+  {
+    "file": "feedback.mjs",
+    "bytes": 7766,
+    "sha256": "d20de572fdc209da3b5d8714d82b7047880e17879331396f3d594920041ac645"
+  },
+  {
+    "file": "feedback.test.mjs",
+    "bytes": 3690,
+    "sha256": "082fe77cb12dfc41ab325ba8307adce7f59e3b35963c0e959afa5a48e8094d10"
+  },
+  {
+    "file": "GERI-BILDIRIM-DURUMU.md",
+    "bytes": 4575,
+    "sha256": "c0dd80fb3efc71a3bd8c742a852e29ffe00336357a9a6f6a161d755ffd51d837"
+  },
+  {
+    "file": "GITHUB-YUKLEME.md",
+    "bytes": 1878,
+    "sha256": "c36d3b3f5521e53f48fe7115441c7fbef2e133cd9a81184cca7d9dcd69893c41"
+  },
+  {
+    "file": "package.json",
+    "bytes": 351,
+    "sha256": "755a789dbd59dbb73b65b52ead0663c89659e9e8c911c39329ecf8379276a1f3"
+  },
+  {
+    "file": "PILOT-HAZIRLIK.md",
+    "bytes": 6118,
+    "sha256": "afea137a0ae25de01774b15dee01c113ead6d0570d394bb509682695d6fa4db5"
+  },
+  {
+    "file": "pnpm-lock.yaml",
+    "bytes": 27100,
+    "sha256": "e0a25c6a557cad5e73cf0d4cf18bbb12bd4fab67c7e627e4dcf7e7f892edd80c"
+  },
+  {
+    "file": "public/app.js",
+    "bytes": 28200,
+    "sha256": "51c77fb2a6abbd6dde60a73aa797fc8873859afcaf57595f56417ccf24a250d3"
+  },
+  {
+    "file": "public/feedback.css",
+    "bytes": 2619,
+    "sha256": "74dfbc007e656b5ca134d2e945bc203a1063d1633f79497cdacb99b023abb53a"
+  },
+  {
+    "file": "public/feedback.js",
+    "bytes": 6173,
+    "sha256": "e5930503011f377c49c966b9b043bc2d8373a744a6a6737189d3db599bfac46b"
+  },
+  {
+    "file": "public/icon.svg",
+    "bytes": 278,
+    "sha256": "1a4826cf6a4780cae8685f2c21eca99a11086398276ce44ce6302acf9789a55d"
+  },
+  {
+    "file": "public/index.html",
+    "bytes": 24998,
+    "sha256": "7ed7957093388c1e00bece357215e3f50d2cf461336740dcffc30f7221806bca"
+  },
+  {
+    "file": "public/manifest.webmanifest",
+    "bytes": 242,
+    "sha256": "acc1821ecf6d527ec1d9be5284f7540ff18507fa93dd160a42e07e634e11428c"
+  },
+  {
+    "file": "public/preview.css",
+    "bytes": 310,
+    "sha256": "4d913afb6ec224eac21767cde4e70856152e0532982c065e394188e6a2e6905c"
+  },
+  {
+    "file": "public/product.css",
+    "bytes": 28221,
+    "sha256": "48af8cea6906aaa2dfba244a7e2095554c9c7162c5120ca29b8bccddf1155db8"
+  },
+  {
+    "file": "public/style.css",
+    "bytes": 13373,
+    "sha256": "0ec62ba24bd30de2d78fda6ff77c43c57354bd98ecd9bf506c3472d35a7e687f"
+  },
+  {
+    "file": "README.md",
+    "bytes": 5567,
+    "sha256": "6e22cc0df9282d528f351540674bf05423d455639b590ba3cb2d7138a7ce7ca8"
+  },
+  {
+    "file": "scripts/export-source.mjs",
+    "bytes": 2751,
+    "sha256": "c52d7507d9bce8b75917063746d884da5620c4d6f8ed303ebb63a6e7694f8368"
+  },
+  {
+    "file": "server.mjs",
+    "bytes": 12020,
+    "sha256": "6678ffd74b63a60dda181826d722018d9a303e15ab5a0ea9f07166e68e723e84"
+  },
+  {
+    "file": "setup-local-db.ps1",
+    "bytes": 3012,
+    "sha256": "34a4985a916f952945628970eb8ce6f91d7b45f56e831f86662fae4981f34628"
+  },
+  {
+    "file": "storage.mjs",
+    "bytes": 5180,
+    "sha256": "87cf7486dadff9f74570c9e0e41149a3580971427f4e3d4a49b1e1ea042a3305"
+  },
+  {
+    "file": "TASARIM-VE-DEMO.md",
+    "bytes": 5067,
+    "sha256": "a5142868048332a157bc66ba0cabfa0a5bc46d1dcc28c6cea5bff8ed339e9f31"
+  },
+  {
+    "file": "TUNEL-DUZELTME-DURUMU.md",
+    "bytes": 3161,
+    "sha256": "6da7125047c24a5ccbee3cb33192d5b7851e80847225d5d88b5c2824df55df76"
+  },
+  {
+    "file": "TUNELI-BAGLA.cmd",
+    "bytes": 315,
+    "sha256": "0e1eed70d80409ef3418423d3a36d18a851baed8527f8aa0e83424cec51061eb"
+  },
+  {
+    "file": "TUNELI-BAGLA.ps1",
+    "bytes": 5389,
+    "sha256": "17901ff1ef3537b239426f3fac130dc0408dd64a94e04630cca86eeb756a9438"
+  },
+  {
+    "file": "uploads.mjs",
+    "bytes": 2031,
+    "sha256": "99879f2dc6d5964092f04b2c719abb2ef219d93bb969829382b1948c556e2d8e"
+  },
+  {
+    "file": "uploads.test.mjs",
+    "bytes": 1058,
+    "sha256": "ba70615551307af63375a5a911ac7f5f333522bb06b88fe304278700a2f2865d"
+  },
+  {
+    "file": "URUN-VE-YAYIN-ANALIZI.md",
+    "bytes": 11910,
+    "sha256": "041ae8fa4cc2c4b5afd0c1147dded24d231a602e7080a1c6cdc22dd047979597"
+  },
+  {
+    "file": "verify-ai.mjs",
+    "bytes": 1384,
+    "sha256": "08094ece38c378217a9c42db898c9285c8a2edfb47a0589c92154d15053aae1c"
+  },
+  {
+    "file": "verify-feedback.mjs",
+    "bytes": 2101,
+    "sha256": "9f317dc59cbe285d8d6f8925d9258f43aeae223f5b5b6abd78632f1bdc1f3eda"
+  },
+  {
+    "file": "verify-photo.mjs",
+    "bytes": 1007,
+    "sha256": "e306f267258bed15692f7bfdae1ec5ae1090427ea7b3110a52cc783cb36cd554"
+  },
+  {
+    "file": "verify-restore.mjs",
+    "bytes": 2487,
+    "sha256": "8e85021311337bc46fd55e85ece81ba044d5173f90697ba5c0b1c21494350bfc"
+  },
+  {
+    "file": "verify-workflow.mjs",
+    "bytes": 2022,
+    "sha256": "d4d031ffbfe8c1403b5f124854648e30bda4b690c8c2c71f0e0796eb28e98373"
+  },
+  {
+    "file": "YAPILACAKLAR.md",
+    "bytes": 2313,
+    "sha256": "886f2a15c1c88c54a397dd8b285228955aff354d4853bc72d86eef06ee662dc9"
+  }
+]
